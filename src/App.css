@@ -36,3 +36,60 @@
     transform: rotate(360deg);
   }
 }
+
+.Flexbox{
+    display: flex;
+    flex-direction: row;
+    }
+
+#inputBoxes{
+    width:40%;
+    font-family: 'Roboto Mono';
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 5%;
+
+}
+#paragraph{
+    width:40%;
+    font-size: 30px;
+    font-family: 'Fredoka One';
+    margin: 20px 5%;
+}
+.button{
+    margin: 0 35%;
+    width: 120px;
+    height: 40px;
+    font-size: 25px;
+    border-radius: 25px;
+    font-family: 'Roboto Mono'
+}
+.button:hover{
+    margin: 0 35%;
+    width: 120px;
+    height: 40px;
+    font-size: 25px;
+    color: lightblue;
+    background-color: darkblue;
+    border-radius: 25px;
+    font-family: 'Roboto Mono'
+}
+h1{
+    font-size: 60px;
+    margin: 10px 35%;
+    font-family: 'Permanent Marker'
+}
+.input{
+    height: 35px;
+    font-size: 30px;
+    font-family: 'Roboto Mono';
+    border-radius: 25px;
+    text-align: center;
+}
+body{
+background-image:url(https://image.freepik.com/free-vector/abstract-futuristic-background_23-2148399335.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+color: lightblue
+}
